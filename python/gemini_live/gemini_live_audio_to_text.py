@@ -15,14 +15,6 @@ MODEL = "gemini-2.0-flash-live-preview-04-09"
 
 voice_name = "Aoede"
 
-rag_store = VertexRagStore(
-    rag_resources=[
-        VertexRagStoreRagResource(
-            rag_corpus="projects/wdtest-001/locations/us-central1/ragCorpora/2305843009213693952",
-        )
-    ],
-)
-
 CONFIG = LiveConnectConfig(
     response_modalities=[Modality.TEXT],
 )

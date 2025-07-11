@@ -1,3 +1,16 @@
+# JetBrains IDE (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+modules.xml
+workspace.xml
+navEditor.xml
+vcs.xml
+encodings.xml
+*.swp
+
 # General
 .DS_Store
 .AppleDouble
